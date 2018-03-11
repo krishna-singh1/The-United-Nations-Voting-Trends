@@ -110,8 +110,7 @@ top_Negative<-SortedNegative[1:5, c(1,2,5,7)]
 top_Negative
 
 
-
-#some visualization tricks. Things, which ggplot can do for you. 
+ 
 votes_factor<-votes1
 votes_factor$vote <- factor(votes1$vote)
 str(votes_factor)
