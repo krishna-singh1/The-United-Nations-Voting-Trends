@@ -139,7 +139,7 @@ top_Negative
 ```
 
 
-#Createing stacked and grouped bar charts showing votes distribution from 1985 in three categories, Positive, Negative, Abstain.
+#Creating stacked and grouped bar charts showing votes distribution from 1985 in three categories, Positive, Negative, Abstain.
 ```{r , echo=TRUE}
 votes_factor<-votes1
 votes_factor$vote <- factor(votes1$vote)
